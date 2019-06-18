@@ -1,13 +1,15 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 
 class Header extends React.Component {
     render() {
         return (
             <section id="header">
                 <div className="inner">
-                    <span className="icon major fa-code-fork"></span>
+                    <FontAwesomeIcon icon={faCodeBranch} size="4x"/>
                     <h1>Neuroglancer Hub</h1>
-                    <p>Neuroglancer Hub is home to the neuroglancer react component and other annotation plugins</p>
+                    <p>Set of tools that work with and enhance the Google neuroglancer tool for volume visualization and annotation.</p>
                     <ul className="actions">
                         <li><a href="#one" className="button scrolly">Discover</a></li>
                     </ul>
