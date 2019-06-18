@@ -89,7 +89,7 @@ class Homepage extends React.Component {
                 </section>
                 <section id="four" className="main style2 special">
                     <div className="grid-wrapper">
-                        <div className="col-12">
+                        <div className="col-6">
                             <header className="major">
                               <h2>Collaborators</h2>
                             </header>
@@ -97,6 +97,9 @@ class Homepage extends React.Component {
                             <p>Janelia Scientific Computing</p>
                             <p>Janelia FlyEM</p>
 
+                        </div>
+                        <div className="col-6">
+                          <p>We are excited about collaborations with neuroglancer users and also desire a lot of feedback on potential enhancements. Please make general requests or comments in our <a href="https://github.com/neuroglancerhub/neuroglancerhub.github.io/issues">issue tracker</a> or email us</p>
                         </div>
                     </div>
                 </section>
